@@ -1,4 +1,6 @@
 # Go Steam TOTP
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This package generates Steam-style 5-digit alphanumeric two-factor authentication codes given a shared secret.
 
 ## Usage
@@ -10,3 +12,7 @@ This package generates Steam-style 5-digit alphanumeric two-factor authenticatio
 
 ## Acknowledgments
 - To [DoctorMcKay](https://github.com/DoctorMcKay) for the great nodejs module [node-steam-totp](https://github.com/DoctorMcKay/node-steam-totp)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details

@@ -1,4 +1,5 @@
 # Go Steam TOTP
+[![Build Status](https://travis-ci.org/fortis/go-steam-totp.svg?branch=master)](https://travis-ci.org/fortis/go-steam-totp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This package generates Steam-style 5-digit alphanumeric two-factor authentication codes given a shared secret.

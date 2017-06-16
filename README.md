@@ -9,4 +9,4 @@ This package generates Steam-style 5-digit alphanumeric two-factor authenticatio
 ```
 
 ## Acknowledgments
-- To [DoctorMcKay](https://github.com/DoctorMcKay) for the great nodejs module [https://github.com/DoctorMcKay/node-steam-totp](node-steam-totp)
+- To [DoctorMcKay](https://github.com/DoctorMcKay) for the great nodejs module [node-steam-totp](https://github.com/DoctorMcKay/node-steam-totp)

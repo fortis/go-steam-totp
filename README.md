@@ -1,6 +1,4 @@
-# go-steam-totp
-Go package to generate Steam-style TOTP auth codes
-
+# Go Steam TOTP
 This package generates Steam-style 5-digit alphanumeric two-factor authentication codes given a shared secret.
 
 ## Usage

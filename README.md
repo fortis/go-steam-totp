@@ -7,3 +7,6 @@ This package generates Steam-style 5-digit alphanumeric two-factor authenticatio
 ```go
 	code, _ := steam_totp.GenerateAuthCode("cnOgv/KdpLoP6Nbh0GMkXkPXALQ=", time.Now()))
 ```
+
+## Acknowledgments
+- To [DoctorMcKay](https://github.com/DoctorMcKay) for the great nodejs module [https://github.com/DoctorMcKay/node-steam-totp](node-steam-totp)

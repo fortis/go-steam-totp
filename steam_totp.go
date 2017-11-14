@@ -1,4 +1,4 @@
-// Package inspired by https://github.com/DoctorMcKay/node-steam-totp
+// Package to generate Steam-style TOTP auth codes
 package steam_totp
 
 import (

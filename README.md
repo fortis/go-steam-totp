@@ -5,11 +5,26 @@
 
 This package generates Steam-style 5-digit alphanumeric two-factor authentication codes given a shared secret.
 
+## Installation
+
+    $ go get github.com/fortis/go-steam-totp
+
 ## Usage
-##### Generate 5-digit code to Log on Steam
+Generate 5-digit code to Log on Steam
 
 ```go
-	code, _ := steam_totp.GenerateAuthCode("cnOgv/KdpLoP6Nbh0GMkXkPXALQ=", time.Now())
+package main
+
+import (
+        "log"
+        "github.com/fortis/go-steam-totp"
+)
+
+func main() {
+    var sharedsecret = "cnOgv/KdpLoP6Nbh0GMkXkPXALQ="
+    code, _ := steam_totp.GenerateAuthCode(sharedsecret, time.Now())
+    log.Println(code)
+}
 ```
 
 ## Acknowledgments

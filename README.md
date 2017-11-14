@@ -27,6 +27,10 @@ func main() {
 }
 ```
 
+## Documentation
+
+[Documentation](http://godoc.org/github.com/fortis/go-steam-totp) is hosted at GoDoc project.
+
 ## Acknowledgments
 - To [DoctorMcKay](https://github.com/DoctorMcKay) for the great nodejs module [node-steam-totp](https://github.com/DoctorMcKay/node-steam-totp)
 

@@ -1,7 +1,12 @@
 language: go
 
 go:
+  - tip
   - 1.x
   - 1.6
   - 1.7.x
   - master
+before_install:
+  - go get github.com/mattn/goveralls
+script:
+  - $GOPATH/bin/goveralls -service=travis-ciralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN

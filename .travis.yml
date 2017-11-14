@@ -9,4 +9,4 @@ go:
 before_install:
   - go get github.com/mattn/goveralls
 script:
-  - $GOPATH/bin/goveralls -service=travis-ciralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
+ - $GOPATH/bin/goveralls -service=travis-ci
